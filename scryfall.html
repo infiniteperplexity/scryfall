@@ -14,7 +14,7 @@ let cards, card1, card2, n, r, banned;
 let modern = new Date(2003, 7, 29);
 function init()
 {
-	fetch("scryfall-default-cards.json")
+	fetch("scryfall-oracle-cards.json")
 		.then(res=>res.json())
 		.then(json =>{
 			cards = json.filter(e=>e.lang=="en");
