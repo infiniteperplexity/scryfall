@@ -1,0 +1,140 @@
+<!--Distributed under GNU Public License version 3-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: #99CCFF}
+</style>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Scryfall Querier, by Glenn Wright</title>
+</head>
+<script>
+
+let cards, card1, card2, n, r, banned;
+let modern = new Date(2003, 7, 29);
+function init()
+{
+	fetch("scryfall-default-cards.json")
+		.then(res=>res.json())
+		.then(json =>{
+			cards = json.filter(e=>e.lang=="en");
+			getCards(1);
+			getCards(2);
+		})
+	;
+}
+
+function getCards(which)
+{
+	// First card
+	if (which==1)
+	{
+		n = cards.length;
+		r = parseInt(Math.random()*n);
+		card1 = cards[r];
+		document.getElementById("card1").setAttribute("src",card1.image_uris.large);
+		document.getElementById("released1").value = card1.released_at;
+		banned = false;
+		if (card1.released_at < modern && card1.legalities.legacy == "not_legal") 
+		{
+			banned = true;
+		}
+		else if (card1.legalities.modern == "not_legal")
+		{
+			banned = true;
+		}
+		banned = false;
+		document.getElementById("banned1").checked = banned;
+		document.getElementById("set1").innerHTML = card1.set_name;
+		//document.getElementById("json1").innerHTML = JSON.stringify(card1, 2);
+	}
+	else
+	{
+	// Second card
+		n = cards.length;
+		r = parseInt(Math.random()*n);
+		card2 = cards[r];
+		document.getElementById("card2").setAttribute("src",card2.image_uris.large);
+		document.getElementById("released2").value = card2.released_at;
+		banned = false;
+		if (card2.released_at < modern && card2.legalities.legacy == "not_legal") 
+		{
+			banned = true;
+		}
+		else if (card2.legalities.modern == "not_legal")
+		{
+			banned = true;
+		}
+		banned = false;
+		document.getElementById("banned2").checked = banned;
+		document.getElementById("set2").innerHTML = card2.set_name;
+		//document.getElementById("json2").innerHTML = JSON.stringify(card2, 2);
+	}
+}
+
+//edhrec_rank
+//legalities.legacy == "not_legal"
+//July 29, 2003
+// 63*88
+</script>
+<body onload="init();">
+	<div id="display">
+	</div>
+
+	
+	<br>
+	<table>
+		<tr>
+			<td>
+				<button onclick="getCards(1);">Randomize</button>
+			</td>
+			<td>
+				<button onclick="getCards(2);">Randomize</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img
+					id="card1"
+					height="440"
+					width="315"
+					src=https://img.scryfall.com/cards/large/en/a25/141.jpg?1521727517>
+				</img>
+			</td>
+			<td>
+				<img
+					id="card2"
+					height="440"
+					width="315"
+					src="https://img.scryfall.com/cards/large/front/8/b/8bbcfb77-daa1-4ce5-b5f9-48d0a8edbba9.jpg?1548379822">
+				</img>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div>
+					<div id="set1"></div>
+					Banned?:<input id="banned1" onclick="return false;" type="checkbox"></input>
+					Released:<input id="released1" readonly type="date"></input>				
+				</div>
+			</td>
+			<td>
+				<div>
+					<div id="set2"></div>
+					Banned?:<input id="banned2" onclick="return false;" type="checkbox"></input>
+					Released:<input id="released2" readonly type="date"></input>	
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p id="json1"></p>
+			</td>
+			<td>
+				<p id="json2"></p>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
+
