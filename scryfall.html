@@ -46,6 +46,9 @@ function getCards(which)
 		banned = false;
 		document.getElementById("banned1").checked = banned;
 		document.getElementById("set1").innerHTML = card1.set_name;
+		document.getElementById("rank1").innerHTML = card1.edhrec_rank;
+		let rank = parseInt(100*(1-card1.edhrec_rank/cards.length));
+		document.getElementById("rank1").innerHTML = card1.edhrec_rank + " (" + rank+"%)";
 		//document.getElementById("json1").innerHTML = JSON.stringify(card1, 2);
 	}
 	else
@@ -68,8 +71,19 @@ function getCards(which)
 		banned = false;
 		document.getElementById("banned2").checked = banned;
 		document.getElementById("set2").innerHTML = card2.set_name;
+		let rank = parseInt(100*(1-card2.edhrec_rank/cards.length));
+		document.getElementById("rank2").innerHTML = card2.edhrec_rank + " (" + rank+"%)";
 		//document.getElementById("json2").innerHTML = JSON.stringify(card2, 2);
 	}
+}
+
+function getCard(s)
+{
+	s = s.toUpperCase();
+	let c = cards.filter((e,i)=>{
+		return e.name.toUpperCase().indexOf(s)!==-1;
+	});
+	return c[0];
 }
 
 //edhrec_rank
@@ -114,6 +128,8 @@ function getCards(which)
 			<td>
 				<div>
 					<div id="set1"></div>
+					Rank:<span id="rank1"></span>
+					<br>
 					Banned?:<input id="banned1" onclick="return false;" type="checkbox"></input>
 					Released:<input id="released1" readonly type="date"></input>				
 				</div>
@@ -121,6 +137,8 @@ function getCards(which)
 			<td>
 				<div>
 					<div id="set2"></div>
+					Rank:<span id="rank2"></span>
+					<br>
 					Banned?:<input id="banned2" onclick="return false;" type="checkbox"></input>
 					Released:<input id="released2" readonly type="date"></input>	
 				</div>
