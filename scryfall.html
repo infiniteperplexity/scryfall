@@ -35,7 +35,7 @@ function getCards(which)
 		document.getElementById("card1").setAttribute("src",card1.image_uris.large);
 		document.getElementById("released1").value = card1.released_at;
 		banned = false;
-		if (card1.released_at < modern && card1.legalities.legacy == "not_legal") 
+		if (new Date(card1.released_at) < modern && card1.legalities.legacy == "not_legal") 
 		{
 			banned = true;
 		}
@@ -43,7 +43,6 @@ function getCards(which)
 		{
 			banned = true;
 		}
-		banned = false;
 		document.getElementById("banned1").checked = banned;
 		document.getElementById("set1").innerHTML = card1.set_name;
 		document.getElementById("rank1").innerHTML = card1.edhrec_rank;
@@ -60,7 +59,7 @@ function getCards(which)
 		document.getElementById("card2").setAttribute("src",card2.image_uris.large);
 		document.getElementById("released2").value = card2.released_at;
 		banned = false;
-		if (card2.released_at < modern && card2.legalities.legacy == "not_legal") 
+		if (new Date(card2.released_at) < modern && card2.legalities.legacy == "not_legal") 
 		{
 			banned = true;
 		}
@@ -68,7 +67,6 @@ function getCards(which)
 		{
 			banned = true;
 		}
-		banned = false;
 		document.getElementById("banned2").checked = banned;
 		document.getElementById("set2").innerHTML = card2.set_name;
 		let rank = parseInt(100*(1-card2.edhrec_rank/cards.length));
