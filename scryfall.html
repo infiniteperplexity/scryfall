@@ -35,9 +35,12 @@ function getCards(which)
 		document.getElementById("card1").setAttribute("src",card1.image_uris.large);
 		document.getElementById("released1").value = card1.released_at;
 		banned = false;
-		if (new Date(card1.released_at) < modern && card1.legalities.legacy == "not_legal") 
+		if (new Date(card1.released_at) < modern) 
 		{
-			banned = true;
+			if (card1.legalities.legacy == "not_legal")
+			{
+				banned = true;
+			}
 		}
 		else if (card1.legalities.modern == "not_legal")
 		{
@@ -59,9 +62,12 @@ function getCards(which)
 		document.getElementById("card2").setAttribute("src",card2.image_uris.large);
 		document.getElementById("released2").value = card2.released_at;
 		banned = false;
-		if (new Date(card2.released_at) < modern && card2.legalities.legacy == "not_legal") 
+		if (new Date(card2.released_at) < modern)
 		{
-			banned = true;
+			if (card2.legalities.legacy == "not_legal")
+			{
+				banned = true;
+			}
 		}
 		else if (card2.legalities.modern == "not_legal")
 		{
