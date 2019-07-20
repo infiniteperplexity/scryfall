@@ -14,6 +14,7 @@ let cards, card1, card2, n, r, banned;
 let modern = new Date(2003, 7, 29);
 function init()
 {
+	console.log("testing this thing");
 	fetch("scryfall-oracle-cards.json")
 		.then(res=>res.json())
 		.then(json =>{
@@ -26,6 +27,7 @@ function init()
 
 function getCards(which)
 {
+	console.log("getting cards");
 	// First card
 	if (which==1)
 	{
