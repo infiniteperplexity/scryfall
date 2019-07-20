@@ -1,0 +1,371 @@
+Draining Vapors
+2B
+All creatures get -1/-1 and you gain 1 life per.
+
+Knights Vengeant
+1W
+2/1
+T, sac: Destroy target tapped creature.  Play only as a sorcery.
+
+Sleet
+G
+Return one target land each player controls to the owner’s hand.  Draw a card.
+
+
+Rhystic Windmage
+2U
+2/2
+Flying
+All your creatures gain flying unless the opponent pays 2 each.
+
+Underbrush
+1G
+Prevent all combat damage that would be dealt to creatures without flying, players, and planes walkers.
+
+Reckless Pyromancer
+2R
+3/1
+Haste
+Discard a card while casting to Shock.
+
+Ravenous Ghoul
+B
+1/1
+B: Exile a card from any graveyard to get +1/+0 and Menace.
+
+Plunge into Lava
+4R
+Deals 5 damage to target player, planeswalker, or artifact creature.
+
+
+Steam Hammer
+1
+Equipment
++1/+1
++1/+1 for artifact creatures 
+
+Ghost Lightning
+BBB
+4/1
+Haste, deathtouch, lifelink, Sacrifice
+
+Shazam Djinn
+3BB
+5/5
+Both players discard their hands.
+
+Locus of Decay
+3B
+1/1
+Anything that would go to your graveyard gets exiled under ~ instead and gives it +/+1.  Maybe starts as en enchantment?
+
+Glurgh 
+2G
+3/3
+G: Trample, Reach, Or deathtouch
+
+Necropaghy
+BBB
+Sacrifice a creature: put a hunger counter on it.  Lose 1 life and draw a card for each hunger counter.
+
+
+Grox’s Blood Axe
+1R
+Equip: Sacrifice a goblin
++2/+2, double strike
+
+Or...
+
+Create a goblin token whenever it attacks?
+
+
+Blown Away
+UU
+Tap X flying creatures you control to return X permanents to the owners hands.
+
+
+
+Interject
+3U
+When you cast ~, all spells any other player casts for the rest of the turn cost an additional 2.
+
+Blazing Souls
+XRRWW
+Create X 1/1 flying spirits and deal X damage divided any way.
+
+Oblivion Sphinx
+3UU
+3/4
+Flying
+Whenever an opponent casts a spell, mill X.
+
+ Charming Gryphon
+2W
+2/2
+Flying
+Can come into play with an aura on it.
+
+
+Churn Devil
+R
+2/1
+When deals damage, opponent discards at random, then draws.
+
+
+Time Vortex
+3UUU
+Every upkeep, put a time counter on ~, then each player returns to their hand one permanent per counter.  If ~ leaves the battlefield, exile it.
+
+
+Sandstorm Spirit
+2R
+3/2
+T, sac a land: Target creature can’t block.
+
+
+Tactical Studies
+2U
+Draw one card for each tapped creature target player controls.
+
+Wildelf Ancestral Totem
+G
+Enchant creature
++2/+2
+Put a card from your graveyard on top of your deck.
+
+Desperate Ploy
+2U
+Counter target spell with CMC greater than the number of cards in your hand.  Draw a card.
+
+Think Tank
+3U
+Vehicle
+4/4
+Crew: 1
+When ~ attacks or blocks, draw then discard.
+
+Spider Tank
+3G
+Vehicle
+5/5
+Reach
+Crew: 2.  Can get trample, deathtouch, first Strike, Menace, or lifelink from its crew.
+
+Spearhead Ram
+W
+Crew: 4
+4/2
+First Strike
+
+Death Engine
+3B
+Crew: 2
+8/8
+Trample
+Sacrifice the crew
+
+
+Counterspike
+U
+Counter target spell unless its controller pays 1.  If it is not countered, draw a card.
+
+
+
+
+Land
+T: 1
+3G: Create a saproling.
+T, tap C saprolings: Add X mana.
+
+Land
+ T: 1
+Untap whenever opponent casts a spell, but not otherwise.
+
+Doesn’t untap unless you control 3 or more lands.
+
+Give opponent life
+Give opponent Scry 
+Returns to your hand any time X happens.
+
+
+Bulbous
+G
+0/3
+T, Sac: search top 5 cards for one creature and one enchantment.
+
+
+
+
+Necromorph
+3UGB
+6/6
+Flying
+Trample
+UGB: Exile a creature from your graveyard with CMC one less than ~: put ~ into play from your hand.
+
+
+Ancient Plague
+2BB
+Enchantment
+If there are no creatures in play, sacrifice ~.
+X: Each player chooses a target creature for ~ to deal X damage to and you gain X life.
+
+
+Someguy the Plague Rider
+4BW
+6
++2: Create a 2/2 white and black knight token with vigilance.
+-3: All non-knight, non-cleric creatures get -2/-2.
+-10: Choose and exile up to X non-land permanents, where X is the number of non-land permanents you control.
+
+Cooperative Pyromancer
+R
+1/1
+Soulbond 
+As long as the other creature is not red, all spells that share any of their colors cost 1 less.
+
+Bronze Aphid
+1G
+2/2
+You may cast ~ without paying its mana cost if any opponent controls an artifact, and it gains haste and flash.
+
+Eye of Fear
+3B
+3/2
+Menace
+Scry 2 and lose 1 life.
+
+Faerie Painter
+1U
+1/3
+Flying
+6U: Sleight of mind.
+
+
+Invisible Barrier
+1U
+1/4
+Defender
+Flash
+
+
+Amassed Dead
+B
+1/1
+When it dies, you may exile 1+X creatures from any graveyards, then bring it back tapped with X +1/+1 counters on it.
+
+Counterfork
+UR
+Flip to copy, then flip to counter.
+
+Spellstorm Pirate Ship
+4R
+5/3
+Crew 2
+While it’s crewed, copy your first instant or  sorcery each turn.
+
+Wildelf Animist
+1G
+T: Put a +1/+1 counter on target land and it becomes a 0/0 creature as long as there are any counters on it.
+
+
+Raging Assault
+3R
+Enchanted creature gets +2/+1 and trample.  Search the top five cards of your library for a creature with CMC 3 or less or an aura.
+
+
+Uncanny Likeness
+3U
+When it comes into play, choose one: Copy an aura, or enchanted permanent becomes copy of another permanent of the same type.
+
+
+Faultline
+2R
+If enchanted land becomes tapped, destroy and deal 1 damage to all its controller’s creatures.
+
+
+Pedipalps
+1G
+Enchanted creature gets reach and deathtouch and you can have it fight a flying creature and gain +0/+2 for a turn.
+
+
+Taste for Blood
+3B
+Destroy target creature.  If it was damaged, draw a card.
+
+Panteran Cutthroat
+1B
+1/1
+Flash
+Deathtouch
+Can pay 2 life instead of cost.
+
+Some Equippy Legend
+1W
+2/2
+You may equip at instant speed.
+
+Big Green Stomper
+4GG
+7/5
+None of your creatures can be blocked by creatures with lesser power.  Must attack.
+
+Land
+1
+Any color for CMC 6 or more.
+
+Wave Blade
+R/U
+Equipment
+Equip 2
+R: +1/-1
+U: -1/+1
+
+Cribbed Notes
+U
+Artifact
+T: Scry 1.
+
+Salt Marsh Toothfish
+U
+1/1
+Scry 1
+Menace if you control a swamp.
+
+Weird cost
+RB{U/G}
+Either black or red plus both blue and green.
+
+W{U/G}
+W{B/R}
+WG{R/U}
+
+Changeling Warlock
+U
+1/2
+T: Target creature is any or no creature types this turn.
+
+Eleventh Hour
+W
+Enchantment
+At the beginning of your upkeep, if you have exactly 11 life, draw two cards.  If you have exactly 11 life all your creatures get +2/+2.
+
+Bloody Bones
+1B
+2/1
+ETB deals 1 damage to player or planes walker and you gain 1 life.
+Exile another creature from your graveyard to return this to your hand.
+
+Pridecaller
+1W
+2/1
+Whenever it blocks or is blocked, gain 2 life and search your library for another pridecaller.
+
+Blood of Knowledge
+3B
+Deals 2 damage to player or planeswalker and you gain 2 life.  Name up to three cards and search for one it in the top six cards of your library.
+
+
+Recovering Wastelands
+Land
+T: Sacrifice ~ to return a land from your graveyard to the battlefield.  Exile ~.
