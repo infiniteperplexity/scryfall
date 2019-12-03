@@ -369,3 +369,7 @@ Deals 2 damage to player or planeswalker and you gain 2 life.  Name up to three 
 Recovering Wastelands
 Land
 T: Sacrifice ~ to return a land from your graveyard to the battlefield.  Exile ~.
+
+2RU
+Instant
+Counter target spell, then tap target land that spell's caster controls.  That land does not untap as normal during its controller's next untap step.
